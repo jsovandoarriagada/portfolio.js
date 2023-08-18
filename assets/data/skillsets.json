@@ -1,0 +1,86 @@
+{
+  "skillsets": [
+    [
+      {
+        "title": "Lenguajes"
+      },
+      [
+        {
+          "name": "Bootstrap",
+          "level": "Intermedio"
+        },
+        {
+          "name": "CSS",
+          "level": "Intermedio"
+        },
+        {
+          "name": "HTML",
+          "level": "Intermedio"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Intermedio"
+        }
+      ],
+      [
+        {
+          "name": "JSON",
+          "level": "Intermedio"
+        },
+        {
+          "name": "React",
+          "level": "Básico"
+        },
+        {
+          "name": "Sass",
+          "level": "Intermedio"
+        },
+        {
+          "name": "Tailwind",
+          "level": "Básico"
+        }
+      ]
+    ],
+    [
+      {
+        "title": "Herramientas"
+      },
+      [
+        {
+          "name": "Figma",
+          "level": "Básico"
+        },
+        {
+          "name": "Git",
+          "level": "Intermedio"
+        },
+        {
+          "name": "GitHub",
+          "level": "Intermedio"
+        },
+        {
+          "name": "Google",
+          "level": "Intermedio"
+        }
+      ],
+      [
+        {
+          "name": "Notion",
+          "level": "Intermedio"
+        },
+        {
+          "name": "Photoshop",
+          "level": "Básico"
+        },
+        {
+          "name": "Postman",
+          "level": "Básico"
+        },
+        {
+          "name": "Terminal",
+          "level": "Básico"
+        }
+      ]
+    ]
+  ]
+}

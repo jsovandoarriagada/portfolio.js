@@ -1,0 +1,59 @@
+@import "../utilities/extends";
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+/* SKILLSET */
+.skillset {
+  @extend %default-transition;
+  @include colors($gray-dark, $white);
+  @include dimensions(100%, auto);
+  @include flex-direction(column, $x-large);
+  border-radius: $small;
+  padding: $medium;
+
+  &:hover {
+    @extend %shadow-inset;
+  }
+
+  &__title {
+    @include colors(none, $violet);
+    @include font($regular, 500);
+    text-align: center;
+  }
+
+  &__container {
+    @include flex-direction(row, 0);
+    @include flex-alignment(flex-start, center);
+
+    &--left,
+    &--right {
+      @include flex-direction(column, $medium);
+      width: 100%;
+    }
+  }
+}
+
+/* SKILL */
+.skill {
+  @include flex-direction(row, $small);
+  @include flex-alignment(flex-start, center);
+
+  &__icon {
+    @extend %grid-center;
+
+    span {
+      @include colors(none, $violet);
+      @include font($medium, 400);
+      font-variation-settings: "FILL" 1;
+    }
+  }
+
+  &__name {
+    line-height: 1.2;
+
+    span {
+      @include colors(none, $gray-light);
+      display: block;
+    }
+  }
+}

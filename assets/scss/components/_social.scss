@@ -1,0 +1,33 @@
+@import '../utilities/extends';
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+/* SOCIAL */
+.social {
+  @extend %default-transition;
+  @include colors($gray, $white);
+  @include dimensions(100%, auto);
+  @include flex-direction(column, $x-small);
+  @include flex-alignment(center, center);
+  border-radius: $small;
+  cursor: pointer;
+  padding: $medium 0;
+
+  &:hover {
+    @extend %shadow-inset;
+  }
+
+  span {
+    @include font($medium, 400);
+  }
+
+  h3 {
+    @include dimensions(auto, $regular);
+    @include font($regular, 400);
+  }
+
+  p {
+    @include font($regular, 400);
+    @include colors(none, $gray-light);
+  }
+}

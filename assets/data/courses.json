@@ -1,0 +1,119 @@
+{
+  "courses": [
+    [
+      {
+        "platform": "./assets/img/education/alura.webp",
+        "platformName": "Alura Latam",
+        "name": "Front-End",
+        "date": "Julio de 2023",
+        "certificate": "./assets/img/education/download/front-end.webp"
+      },
+      {
+        "platform": "./assets/img/education/alura.webp",
+        "platformName": "Alura Latam",
+        "name": "HTML y CSS",
+        "date": "Junio de 2023",
+        "certificate": "./assets/img/education/download/html-and-css.webp"
+      },
+      {
+        "platform": "./assets/img/education/alura.webp",
+        "platformName": "Alura Latam",
+        "name": "Programación",
+        "date": "Abril de 2023",
+        "certificate": "./assets/img/education/download/principiante-en-programacion.webp"
+      },
+      {
+        "platform": "./assets/img/education/linkedin.webp",
+        "platformName": "LinkedIn Learning",
+        "name": "JavaScript",
+        "date": "Abril de 2023",
+        "certificate": "./assets/img/education/download/become-a-javascript-developer.webp"
+      },
+      {
+        "platform": "./assets/img/education/linkedin.webp",
+        "platformName": "LinkedIn Learning",
+        "name": "RegEx",
+        "date": "Marzo de 2023",
+        "certificate": "./assets/img/education/download/learning-regular-expressions.webp"
+      },
+      {
+        "platform": "./assets/img/education/linkedin.webp",
+        "platformName": "LinkedIn Learning",
+        "name": "UX",
+        "date": "Febrero de 2023",
+        "certificate": "./assets/img/education/download/become-a-user-experience-designer.webp"
+      },
+      {
+        "platform": "./assets/img/education/linkedin.webp",
+        "platformName": "LinkedIn Learning",
+        "name": "Sass",
+        "date": "Febrero de 2023",
+        "certificate": "./assets/img/education/download/sass-essential-training.webp"
+      },
+      {
+        "platform": "./assets/img/education/linkedin.webp",
+        "platformName": "LinkedIn Learning",
+        "name": "TypeScript",
+        "date": "Febrero de 2023",
+        "certificate": "./assets/img/education/download/typescript-essential-training.webp"
+      }
+    ],
+    [
+      {
+        "platform": "./assets/img/education/linkedin.webp",
+        "platformName": "LinkedIn Learning",
+        "name": "JSON",
+        "date": "Enero de 2023",
+        "certificate": "./assets/img/education/download/json-essential-training.webp"
+      },
+      {
+        "platform": "./assets/img/education/linkedin.webp",
+        "name": "Bootstrap 5",
+        "date": "Enero de 2023",
+        "certificate": "./assets/img/education/download/bootstrap-5-essential-training.webp"
+      },
+      {
+        "platform": "./assets/img/education/linkedin.webp",
+        "platformName": "LinkedIn Learning",
+        "name": "Tailwind",
+        "date": "Enero de 2023",
+        "certificate": "./assets/img/education/download/tailwind-css-3-essential-training.webp"
+      },
+      {
+        "platform": "./assets/img/education/linkedin.webp",
+        "platformName": "LinkedIn Learning",
+        "name": "Front-End",
+        "date": "Enero de 2023",
+        "certificate": "./assets/img/education/download/explore-a-career-in-front-end-web-development.webp"
+      },
+      {
+        "platform": "./assets/img/education/udemy.webp",
+        "platformName": "Udemy",
+        "name": "CSS Avanzado",
+        "date": "Enero de 2023",
+        "certificate": "./assets/img/education/download/advanced-css-and-sass.webp"
+      },
+      {
+        "platform": "./assets/img/education/coderhouse.webp",
+        "platformName": "Coderhouse",
+        "name": "React JS",
+        "date": "Septiembre de 2022",
+        "certificate": "./assets/img/education/download/react-js.webp"
+      },
+      {
+        "platform": "./assets/img/education/coderhouse.webp",
+        "platformName": "Coderhouse",
+        "name": "JavaScript",
+        "date": "Julio de 2022",
+        "certificate": "./assets/img/education/download/javascript.webp"
+      },
+      {
+        "platform": "./assets/img/education/coderhouse.webp",
+        "platformName": "Coderhouse",
+        "name": "Desarrollo Web",
+        "date": "Mayo de 2022",
+        "certificate": "./assets/img/education/download/desarrollo-web.webp"
+      }
+    ]
+  ]
+}

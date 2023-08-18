@@ -1,0 +1,38 @@
+@import "../utilities/extends";
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+/* GENERAL */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  @include colors($black, $white);
+  @include font($regular, 400);
+  font-family: "Poppins", sans-serif;
+
+  a {
+    @include colors(none, $white);
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .material-symbols-outlined {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .layout {
+    @include dimensions(100vw, auto);
+    @include flex-direction(column, 0);
+    @include flex-alignment(center, center);
+    max-width: 100%;
+    position: relative;
+  }
+}

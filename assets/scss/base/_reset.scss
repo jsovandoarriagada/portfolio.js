@@ -1,0 +1,28 @@
+/* RESET */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+section,
+figure,
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+img,
+ul,
+li,
+button,
+small,
+textarea {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}

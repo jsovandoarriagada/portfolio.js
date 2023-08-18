@@ -1,0 +1,28 @@
+{
+  "facts": [
+    {
+      "fact": "🕺 Mi nombre es José",
+      "span": "Simón Ovando Arriagada."
+    },
+    {
+      "fact": "🎂 Nací el 17 de Octubre",
+      "span": "de 1986 en Lund, Suecia."
+    },
+    {
+      "fact": "🌐 Desde niño me interesé en",
+      "span": "Internet y las páginas web."
+    },
+    {
+      "fact": "🧑‍🎓 En 2022 cursé Desarrollo",
+      "span": "Frontend React en Coderhouse."
+    },
+    {
+      "fact": "🚀 Estudio en el programa ONE,",
+      "span": "de Oracle y Alura Latam."
+    },
+    {
+      "fact": "👤 Estoy cursando Diseño",
+      "span": "UX/UI en Coderhouse."
+    }
+  ]
+}

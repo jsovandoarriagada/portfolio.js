@@ -1,0 +1,32 @@
+@mixin grid-template($min, $gap) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($min, 1fr));
+  grid-auto-rows: auto;
+  gap: $gap;
+}
+
+@mixin flex-direction($flex-direction, $gap) {
+  display: flex;
+  flex-direction: $flex-direction;
+  gap: $gap;
+}
+
+@mixin flex-alignment($justify-content, $align-items) {
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+@mixin dimensions($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin font($size, $weight) {
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin colors($background-color, $color) {
+  background-color: $background-color;
+  color: $color;
+}

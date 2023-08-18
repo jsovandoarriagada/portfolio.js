@@ -1,0 +1,14 @@
+@import '../utilities/variables';
+
+%grid-center {
+  display: grid;
+  place-items: center;
+}
+
+%default-transition {
+  transition: all 0.3s;
+}
+
+%shadow-inset {
+  box-shadow: inset 0 0 0 $xx-small $violet;
+}

@@ -1,0 +1,43 @@
+@import "../components/course";
+@import "../utilities/extends";
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+/* EDUCATION */
+.education {
+  @include flex-direction(column, $x-large);
+  margin-top: $xx-large;
+  scroll-margin-top: 9rem;
+
+  &__title {
+    @include font($medium, 500);
+  }
+
+  &__showcase {
+    @include dimensions(100%, auto);
+
+    .courses {
+      @include dimensions(100%, auto);
+      @include flex-direction(row, $small);
+
+      &--left,
+      &--right {
+        @include dimensions(100%, auto);
+        @include flex-direction(column, $small);
+      }
+    }
+
+    @media (max-width: 44.125rem) {
+      .courses {
+        @include flex-direction(column, $small);
+      }
+    }
+  }
+}
+
+@media (max-width: 47.5rem) {
+  .education {
+    @include flex-direction(column, $large);
+    margin-top: $x-large;
+  }
+}

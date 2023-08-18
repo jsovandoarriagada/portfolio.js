@@ -1,0 +1,71 @@
+@import '../utilities/extends';
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+/* FORM */
+.form {
+  @include flex-direction(column, $small);
+
+  small {
+    color: $white;
+  }
+
+  &__field {
+    @include flex-direction(column, 0);
+    @include flex-alignment(center, flex-start);
+
+    &--name,
+    &--email,
+    &--subject,
+    &--message {
+      @include colors($gray-dark, $white);
+      @include dimensions(100%, auto);
+      @include font($regular, 400);
+      border: none;
+      border-radius: $small;
+      font-family: 'Poppins', sans-serif;
+      outline: none;
+      padding: $small $medium;
+
+      &:hover {
+        @extend %shadow-inset;
+      }
+    }
+
+    &--message {
+      @include dimensions(100%, 23.6rem);
+      min-width: 100%;
+      resize: none;
+    }
+  }
+
+  &__buttons {
+    @include flex-direction(row, $small);
+
+    button {
+      @include dimensions(100%, auto);
+      @include font($regular, 400);
+      border: none;
+      border-radius: $small;
+      cursor: pointer;
+      font-family: 'Poppins', sans-serif;
+      padding: $small $medium;
+
+      &:nth-of-type(1) {
+        @include colors($violet, $white);
+        @include flex-direction(row, $x-small);
+        @include flex-alignment(center, center);
+
+        span {
+          @include font($medium, 400);
+          font-variation-settings: 'FILL' 0;
+        }
+      }
+
+      &:nth-of-type(2) {
+        @extend %shadow-inset;
+        @include colors(transparent, $violet);
+      }
+    }
+  }
+}

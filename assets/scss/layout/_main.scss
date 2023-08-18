@@ -1,0 +1,20 @@
+@import "../layout/hero";
+@import "../layout/about";
+@import "../layout/skills";
+@import "../layout/education";
+@import "../layout/repository";
+@import "../layout/contact";
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+/* MAIN */
+.main {
+  width: 120rem;
+}
+
+@media (max-width: 78.5rem) {
+  .main {
+    @include dimensions(100%, auto);
+    padding: 0 $medium;
+  }
+}

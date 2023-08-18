@@ -1,0 +1,61 @@
+@import '../utilities/extends';
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+/* FOOTER */
+.footer {
+  @include dimensions(100vw, auto);
+  @include flex-direction(row, 0);
+  @include flex-alignment(center, center);
+  margin-top: $xx-large;
+  margin-bottom: $medium;
+  max-width: 100%;
+
+  &__container {
+    @include dimensions(120rem, auto);
+    @include flex-direction(column, $x-small);
+    @include flex-alignment(center, center);
+    text-align: center;
+
+    .footer__logo {
+      @include dimensions(auto, 4rem);
+      cursor: pointer;
+    }
+
+    .footer__ul {
+      @include flex-direction(row, $x-small);
+
+      .footer__li {
+        .footer__a {
+          @extend %default-transition;
+          @include colors(none, $gray-light);
+        }
+
+        .footer__a:hover {
+          @include colors(none, $white);
+        }
+      }
+
+      .footer__li:nth-of-type(1),
+      .footer__li:nth-of-type(2),
+      .footer__li:nth-of-type(3),
+      .footer__li:nth-of-type(4) {
+        border-right: $xxx-small solid $gray-light;
+        padding-right: $x-small;
+      }
+    }
+  }
+
+  @media (max-width: 78.5rem) {
+    &__container {
+      @include dimensions(100%, auto);
+      padding: 0 $medium;
+    }
+  }
+}
+
+@media (max-width: 47.5rem) {
+  .footer {
+    margin-top: $x-large;
+  }
+}

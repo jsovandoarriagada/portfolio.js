@@ -1,0 +1,38 @@
+@import "../components/nav";
+@import "../utilities/extends";
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+/* HEADER */
+.header {
+  @include colors($black, $gray-light);
+  @include dimensions(100vw, auto);
+  @include flex-direction(row, 0);
+  @include flex-alignment(center, center);
+  padding: $medium !important;
+  position: fixed;
+  top: 0;
+
+  &__container {
+    @include flex-direction(row, 0);
+    @include flex-alignment(space-between, center);
+    @include dimensions(120rem, auto);
+  }
+
+  &__a {
+    @include colors(none, $violet);
+    @include font($medium, 600);
+    cursor: pointer;
+
+    span {
+      @include colors(none, $white);
+    }
+  }
+}
+
+@media (max-width: 78.5rem) {
+  .header {
+    @include dimensions(100%, auto);
+    padding: 0 $medium;
+  }
+}

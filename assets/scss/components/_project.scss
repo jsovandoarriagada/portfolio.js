@@ -1,0 +1,112 @@
+@import "../utilities/extends";
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+/* PROJECT */
+.project {
+  @extend %default-transition;
+  @include colors($gray-dark, $white);
+  @include flex-direction(column, $medium);
+  border-radius: $small;
+  padding: $medium;
+
+  &:hover {
+    @extend %shadow-inset;
+  }
+
+  &__header {
+    @include flex-direction(column, $small);
+
+    img {
+      @include dimensions(100%, auto);
+      border: 0.1rem solid $black-light;
+    }
+
+    @media (max-width: 42.5rem) {
+      img {
+        @include dimensions(100%, auto);
+      }
+    }
+
+    h4 {
+      @include colors(none, $gray-light);
+      @include font($regular, 400);
+      text-align: end;
+    }
+  }
+
+  &__content {
+    @include dimensions(100%, auto);
+    @include flex-direction(column, $medium);
+    @include flex-alignment(center, center);
+
+    &--title {
+      @include flex-direction(column, $small);
+      @include flex-alignment(center, center);
+
+      img {
+        @include dimensions(auto, $medium);
+      }
+
+      h3 {
+        @include font($regular, 500);
+      }
+
+      p {
+        @include colors(none, $gray-light);
+      }
+    }
+
+    &--body {
+      @include flex-direction(column, $medium);
+      @include flex-alignment(center, center);
+
+      .project__buttons {
+        @include flex-direction(row, $small);
+
+        .project__deployment,
+        .project__repository {
+          @extend %default-transition;
+          @include colors($gray, $white);
+          @include flex-direction(row, $x-small);
+          @include flex-alignment(center, center);
+          @include font($regular, 400);
+          border-radius: $small;
+          cursor: pointer;
+          padding: $small $medium;
+
+          &:hover {
+            @include colors($violet, $white);
+          }
+
+          svg {
+            align-self: center;
+          }
+        }
+      }
+
+      .project__deployment {
+        @include dimensions(9.434rem, auto);
+      }
+
+      .project__ul {
+        .project__li {
+          @include dimensions(auto, 2.4rem);
+          @include flex-direction(row, $x-small);
+          @include flex-alignment(flex-start, center);
+
+          span {
+            @include colors(none, $violet);
+          }
+
+          h4 {
+            @include font($regular, 400);
+            height: 2.4rem;
+            display: grid;
+            place-items: center;
+          }
+        }
+      }
+    }
+  }
+}

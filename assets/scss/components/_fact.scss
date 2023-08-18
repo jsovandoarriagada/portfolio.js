@@ -1,0 +1,21 @@
+@import '../utilities/extends';
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+/* FACT */
+.fact {
+  @extend %default-transition;
+  @extend %grid-center;
+  @include colors($gray-dark, $white);
+  border-radius: $small;
+  padding: $medium 0;
+  text-align: center;
+
+  &:hover {
+    @extend %shadow-inset;
+  }
+
+  span {
+    display: block;
+  }
+}

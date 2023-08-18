@@ -1,0 +1,61 @@
+@import "../utilities/extends";
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+/* COURSE */
+.course {
+  @extend %default-transition;
+  @include colors($gray-dark, $white);
+  @include flex-direction(row, 0);
+  @include flex-alignment(space-between, center);
+  border-radius: $small;
+  padding: $medium;
+
+  &:hover {
+    @extend %shadow-inset;
+  }
+
+  &__img {
+    @include dimensions(auto, 4rem);
+  }
+
+  &__text {
+    @include flex-direction(column, 0.4rem);
+    @include flex-alignment(center, center);
+    text-align: center;
+
+    p {
+      line-height: 1.2;
+
+      &:nth-of-type(2) {
+        @include colors(none, $gray-light);
+      }
+    }
+  }
+
+  &__certificate {
+    @extend %default-transition;
+    @include colors($gray, $white);
+    @include dimensions(fit-content, auto);
+    @include flex-direction(row, $x-small);
+    @include flex-alignment(center, center);
+    @include font($regular, 400);
+    border-radius: $small;
+    cursor: pointer;
+    padding: $small;
+
+    &:hover {
+      @include colors($violet, $white);
+    }
+
+    span {
+      @include font($medium, 400);
+    }
+
+    @media (max-width: 36.25rem) {
+      p {
+        display: none;
+      }
+    }
+  }
+}
