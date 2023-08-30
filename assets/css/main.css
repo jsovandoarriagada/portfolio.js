@@ -682,7 +682,7 @@ body {
           font-weight: 400;
           border-radius: 1rem;
           cursor: pointer;
-          padding: 1rem 2rem; }
+          padding: 1rem; }
           .project__content--body .project__buttons .project__deployment:hover,
           .project__content--body .project__buttons .project__repository:hover {
             background-color: #8739fa;
@@ -690,8 +690,6 @@ body {
           .project__content--body .project__buttons .project__deployment svg,
           .project__content--body .project__buttons .project__repository svg {
             align-self: center; }
-        .project__content--body .project__buttons .project__repository {
-          padding: 1rem; }
       .project__content--body .project__ul .project__li {
         width: auto;
         height: 2.4rem;

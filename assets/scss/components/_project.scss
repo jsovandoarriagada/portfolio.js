@@ -73,7 +73,7 @@
           @include font($regular, 400);
           border-radius: $small;
           cursor: pointer;
-          padding: $small $medium;
+          padding: $small;
 
           &:hover {
             @include colors($violet, $white);
@@ -82,10 +82,6 @@
           svg {
             align-self: center;
           }
-        }
-
-        .project__repository {
-          padding: $small;
         }
       }
 
