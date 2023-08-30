@@ -690,9 +690,8 @@ body {
           .project__content--body .project__buttons .project__deployment svg,
           .project__content--body .project__buttons .project__repository svg {
             align-self: center; }
-      .project__content--body .project__deployment {
-        width: 9.434rem;
-        height: auto; }
+        .project__content--body .project__buttons .project__repository {
+          padding: 1rem; }
       .project__content--body .project__ul .project__li {
         width: auto;
         height: 2.4rem;
@@ -738,6 +737,12 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
     grid-auto-rows: auto;
     gap: 1rem; }
+  @media (max-width: 560px) {
+    .repository__showcase {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+      grid-auto-rows: auto;
+      gap: 1rem; } }
 
 @media (max-width: 47.5rem) {
   .repository {

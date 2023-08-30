@@ -83,10 +83,10 @@
             align-self: center;
           }
         }
-      }
 
-      .project__deployment {
-        @include dimensions(9.434rem, auto);
+        .project__repository {
+          padding: $small;
+        }
       }
 
       .project__ul {

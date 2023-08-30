@@ -17,6 +17,12 @@
   &__showcase {
     @include grid-template(24rem, $small);
   }
+
+  @media (max-width: 560px) {
+    &__showcase {
+      @include grid-template(20rem, $small);
+    }
+  }
 }
 
 @media (max-width: 47.5rem) {

@@ -46,28 +46,6 @@
     },
     {
       "platform": "Coderhouse",
-      "preview": "./assets/img/projects/purple-man-gaming-v2/preview.webp",
-      "logo": "./assets/img/projects/purple-man-gaming-v2/logo.webp",
-      "name": "Purple Man Gaming v2",
-      "technologies": "React y Firebase",
-      "repository": "https://github.com/jsovandoarriagada/purple-man-gaming-v2",
-      "deployment": "https://purple-man-gaming-v2.vercel.app/",
-      "date": "Septiembre de 2022",
-      "resolution": "Responsive"
-    },
-    {
-      "platform": "Coderhouse",
-      "preview": "./assets/img/projects/purple-man-gaming/preview.webp",
-      "logo": "./assets/img/projects/purple-man-gaming/logo.webp",
-      "name": "Purple Man Gaming",
-      "technologies": "HTML, SCSS y JS",
-      "repository": "https://github.com/jsovandoarriagada/purple-man-gaming",
-      "deployment": "https://jsovandoarriagada.github.io/purple-man-gaming",
-      "date": "Julio de 2022",
-      "resolution": "Responsive"
-    },
-    {
-      "platform": "Coderhouse",
       "preview": "./assets/img/projects/battle.net/preview.webp",
       "logo": "./assets/img/projects/battle.net/logo.webp",
       "name": "Battle.net",
@@ -103,7 +81,7 @@
       "platform": "Personal",
       "preview": "./assets/img/projects/new-super-mario-bros/preview.webp",
       "logo": "./assets/img/projects/new-super-mario-bros/logo.webp",
-      "name": "New Super Mario Bros.",
+      "name": "Super Mario Bros.",
       "technologies": "HTML y CSS",
       "repository": "https://github.com/jsovandoarriagada/new-super-mario-bros",
       "deployment": "https://jsovandoarriagada.github.io/new-super-mario-bros",
