@@ -13,27 +13,23 @@ const displayRepository = () => {
     repositoryShowcase.innerHTML += `
       <div class="project">
         <div class="project__header">
-        <h4>${project.date}</h4>
+        <h4>${project.platform}</h4>
           <img class="project__img" src="${project.preview}" alt="${project.name}" draggable="false" />
-    
         </div>
         <div class="project__content">
           <div class="project__content--title">
                <h3>${project.name}</h3>
             <img src="${project.logo}" alt="${project.name}" class="project__content--img" draggable="false" />
-            <p>${project.platform}</p>
+            <p>${project.date}</p>
           </div>
           <div class="project__content--body">
             <ul class="project__ul">
-            <li class="project__li">
-            <h4>👉 ${project.technologies}</h4>
-          </li>
               <li class="project__li">
-                <h4>👉 ${project.responsiveness}</h4>
+                <h4>👉 ${project.technologies}</h4>
               </li>
               <li class="project__li">
-              <h4>👉 ${project.type}</h4>
-            </li>
+                <h4>👉 ${project.resolution}</h4>
+              </li>
             </ul>
             <div class="project__buttons">
               <a class="project__repository" href="${project.repository}" target="_blank" >GitHub</a>

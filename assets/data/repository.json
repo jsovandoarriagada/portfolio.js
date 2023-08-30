@@ -9,11 +9,10 @@
       "repository": "https://github.com/jsovandoarriagada/dataexpert",
       "deployment": "https://jsovandoarriagada.github.io/dataexpert",
       "date": "Julio de 2023",
-      "responsiveness": "Responsive",
-      "type": "Página Web"
+      "resolution": "Responsive"
     },
     {
-      "platform": "Oracle Next Education",
+      "platform": "Alura Latam",
       "preview": "./assets/img/projects/crimson-games/preview.webp",
       "logo": "./assets/img/projects/crimson-games/logo.webp",
       "name": "Crimson Games",
@@ -21,11 +20,10 @@
       "repository": "https://github.com/jsovandoarriagada/crimson-games",
       "deployment": "https://jsovandoarriagada.github.io/crimson-games",
       "date": "Junio de 2023",
-      "responsiveness": "Responsive",
-      "type": "Desafío"
+      "resolution": "Responsive"
     },
     {
-      "platform": "Oracle Next Education",
+      "platform": "Alura Latam",
       "preview": "./assets/img/projects/portfolio.js/preview.webp",
       "logo": "./assets/img/projects/portfolio.js/logo.webp",
       "name": "Portfolio.JS",
@@ -33,11 +31,10 @@
       "repository": "https://github.com/jsovandoarriagada/portfolio.js",
       "deployment": "https://jsovandoarriagada.github.io/portfolio.js",
       "date": "Junio de 2023",
-      "responsiveness": "Responsive",
-      "type": "Desafío"
+      "resolution": "Responsive"
     },
     {
-      "platform": "Oracle Next Education",
+      "platform": "Alura Latam",
       "preview": "./assets/img/projects/cipher/preview.webp",
       "logo": "./assets/img/projects/cipher/logo.webp",
       "name": "Cipher",
@@ -45,8 +42,7 @@
       "repository": "https://github.com/jsovandoarriagada/cipher",
       "deployment": "https://jsovandoarriagada.github.io/cipher",
       "date": "Mayo de 2023",
-      "responsiveness": "Responsive",
-      "type": "Desafío"
+      "resolution": "Responsive"
     },
     {
       "platform": "Coderhouse",
@@ -57,8 +53,7 @@
       "repository": "https://github.com/jsovandoarriagada/purple-man-gaming-v2",
       "deployment": "https://purple-man-gaming-v2.vercel.app/",
       "date": "Septiembre de 2022",
-      "responsiveness": "Responsive",
-      "type": "Proyecto"
+      "resolution": "Responsive"
     },
     {
       "platform": "Coderhouse",
@@ -69,8 +64,7 @@
       "repository": "https://github.com/jsovandoarriagada/purple-man-gaming",
       "deployment": "https://jsovandoarriagada.github.io/purple-man-gaming",
       "date": "Julio de 2022",
-      "responsiveness": "Responsive",
-      "type": "Proyecto"
+      "resolution": "Responsive"
     },
     {
       "platform": "Coderhouse",
@@ -81,8 +75,7 @@
       "repository": "https://github.com/jsovandoarriagada/battle.net",
       "deployment": "https://jsovandoarriagada.github.io/battle.net",
       "date": "Mayo de 2022",
-      "responsiveness": "Responsive",
-      "type": "Proyecto"
+      "resolution": "Responsive"
     },
     {
       "platform": "Personal",
@@ -93,8 +86,7 @@
       "repository": "https://github.com/jsovandoarriagada/blizzard-launcher",
       "deployment": "https://jsovandoarriagada.github.io/blizzard-launcher",
       "date": "Abril de 2022",
-      "responsiveness": "Responsive",
-      "type": "Borrador"
+      "resolution": "Responsive"
     },
     {
       "platform": "Personal",
@@ -105,8 +97,7 @@
       "repository": "https://github.com/jsovandoarriagada/battle-for-azerotht",
       "deployment": "https://jsovandoarriagada.github.io/battle-for-azeroth",
       "date": "Marzo de 2022",
-      "responsiveness": "1920x1080",
-      "type": "Borrador"
+      "resolution": "1080p"
     },
     {
       "platform": "Personal",
@@ -117,8 +108,7 @@
       "repository": "https://github.com/jsovandoarriagada/new-super-mario-bros",
       "deployment": "https://jsovandoarriagada.github.io/new-super-mario-bros",
       "date": "Marzo de 2022",
-      "responsiveness": "1920x1080",
-      "type": "Borrador"
+      "resolution": "1080p"
     }
   ]
 }

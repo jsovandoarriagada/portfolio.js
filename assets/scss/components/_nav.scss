@@ -34,7 +34,7 @@
 
   &__mobile {
     @extend %default-transition;
-    @include colors($black, $gray-light);
+    @include colors($gray-dark, $gray-light);
     @include dimensions(28rem, auto);
     display: none !important;
     min-height: 100vh;
