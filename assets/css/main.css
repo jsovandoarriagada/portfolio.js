@@ -29,7 +29,8 @@ textarea {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -72,7 +73,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -184,7 +186,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -233,7 +236,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -332,7 +336,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -353,7 +358,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -390,7 +396,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -450,7 +457,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -491,7 +499,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -553,7 +562,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -602,7 +612,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -669,6 +680,7 @@ body {
         display: flex;
         flex-direction: row;
         gap: 1rem; }
+        .project__content--body .project__buttons .project__info,
         .project__content--body .project__buttons .project__deployment,
         .project__content--body .project__buttons .project__repository {
           background-color: #3e3c46;
@@ -683,10 +695,12 @@ body {
           border-radius: 1rem;
           cursor: pointer;
           padding: 1rem; }
+          .project__content--body .project__buttons .project__info:hover,
           .project__content--body .project__buttons .project__deployment:hover,
           .project__content--body .project__buttons .project__repository:hover {
             background-color: #8739fa;
             color: #e2e2e2; }
+          .project__content--body .project__buttons .project__info svg,
           .project__content--body .project__buttons .project__deployment svg,
           .project__content--body .project__buttons .project__repository svg {
             align-self: center; }
@@ -712,7 +726,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -753,7 +768,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -824,7 +840,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -863,7 +880,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
@@ -929,7 +947,8 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__deployment,
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
+.project__content--body .project__buttons .project__deployment,
 .project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 

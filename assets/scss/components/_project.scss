@@ -64,6 +64,7 @@
       .project__buttons {
         @include flex-direction(row, $small);
 
+        .project__info,
         .project__deployment,
         .project__repository {
           @extend %default-transition;
