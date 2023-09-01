@@ -1,7 +1,7 @@
-@import '../components/fact';
-@import '../utilities/extends';
-@import '../utilities/mixins';
-@import '../utilities/variables';
+@import "../components/fact";
+@import "../utilities/extends";
+@import "../utilities/mixins";
+@import "../utilities/variables";
 
 /* ABOUT */
 .about {
@@ -16,7 +16,7 @@
 
   &__showcase {
     @include dimensions(100%, auto);
-    @include grid-template(32rem, $small);
+    @include grid-template(28rem, $small);
   }
 }
 
