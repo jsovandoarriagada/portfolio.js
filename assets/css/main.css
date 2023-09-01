@@ -29,9 +29,9 @@ textarea {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -73,9 +73,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -186,9 +186,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -207,6 +207,7 @@ body {
   align-items: center;
   padding: 2rem !important;
   position: fixed;
+  z-index: 2;
   top: 0; }
   .header__container {
     display: flex;
@@ -236,9 +237,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -336,9 +337,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -358,9 +359,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -396,9 +397,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -457,9 +458,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -499,9 +500,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -562,9 +563,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -612,9 +613,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -629,25 +630,80 @@ body {
   gap: 2rem;
   border-radius: 1rem;
   padding: 2rem; }
-  .project__header {
+  .project__top {
     display: flex;
     flex-direction: column;
     gap: 1rem; }
-    .project__header img {
+    .project__top .project__header {
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+      justify-content: flex-end;
+      align-items: center; }
+      .project__top .project__header .project__info {
+        position: relative;
+        height: auto; }
+        .project__top .project__header .project__info span {
+          color: #929294;
+          cursor: pointer; }
+          .project__top .project__header .project__info span:hover {
+            color: #e2e2e2; }
+        .project__top .project__header .project__info .project__bubble {
+          position: absolute;
+          display: none;
+          z-index: 1;
+          left: -60px;
+          top: -152px; }
+          .project__top .project__header .project__info .project__bubble .bubble {
+            margin: 4rem;
+            position: relative;
+            width: 15rem;
+            height: auto;
+            background-color: #3e3c46;
+            border: 0.2rem solid #8739fa;
+            border-radius: 1rem; }
+            .project__top .project__header .project__info .project__bubble .bubble:before {
+              content: " ";
+              position: absolute;
+              width: 0;
+              height: 0;
+              left: 4rem;
+              right: auto;
+              top: auto;
+              bottom: -2.4rem;
+              border: 1.1rem solid;
+              border-color: #8739fa transparent transparent #8739fa; }
+            .project__top .project__header .project__info .project__bubble .bubble:after {
+              content: " ";
+              position: absolute;
+              width: 0;
+              height: 0;
+              left: 4.2rem;
+              right: auto;
+              top: auto;
+              bottom: -2rem;
+              border: 1rem solid;
+              border-color: #3e3c46 transparent transparent #3e3c46; }
+            .project__top .project__header .project__info .project__bubble .bubble__content {
+              padding: 1rem;
+              text-align: left; }
+      .project__top .project__header .project__info:hover .project__bubble {
+        display: inline-block; }
+    .project__top img {
       width: 100%;
       height: auto;
       border: 0.1rem solid #26252a; }
     @media (max-width: 42.5rem) {
-      .project__header img {
+      .project__top img {
         width: 100%;
         height: auto; } }
-    .project__header h4 {
+    .project__top h4 {
       background-color: none;
       color: #929294;
       font-size: 1.6rem;
       font-weight: 400;
       text-align: end; }
-  .project__content {
+  .project__bottom {
     width: 100%;
     height: auto;
     display: flex;
@@ -655,34 +711,34 @@ body {
     gap: 2rem;
     justify-content: center;
     align-items: center; }
-    .project__content--title {
+    .project__bottom--title {
       display: flex;
       flex-direction: column;
       gap: 1rem;
       justify-content: center;
       align-items: center; }
-      .project__content--title img {
+      .project__bottom--title img {
         width: auto;
         height: 2rem; }
-      .project__content--title h3 {
+      .project__bottom--title h3 {
         font-size: 1.6rem;
         font-weight: 500; }
-      .project__content--title p {
+      .project__bottom--title p {
         background-color: none;
         color: #929294; }
-    .project__content--body {
+    .project__bottom--body {
       display: flex;
       flex-direction: column;
       gap: 2rem;
       justify-content: center;
       align-items: center; }
-      .project__content--body .project__buttons {
+      .project__bottom--body .project__buttons {
         display: flex;
         flex-direction: row;
         gap: 1rem; }
-        .project__content--body .project__buttons .project__info,
-        .project__content--body .project__buttons .project__deployment,
-        .project__content--body .project__buttons .project__repository {
+        .project__bottom--body .project__buttons .project__info,
+        .project__bottom--body .project__buttons .project__deployment,
+        .project__bottom--body .project__buttons .project__repository {
           background-color: #3e3c46;
           color: #e2e2e2;
           display: flex;
@@ -695,16 +751,16 @@ body {
           border-radius: 1rem;
           cursor: pointer;
           padding: 1rem; }
-          .project__content--body .project__buttons .project__info:hover,
-          .project__content--body .project__buttons .project__deployment:hover,
-          .project__content--body .project__buttons .project__repository:hover {
+          .project__bottom--body .project__buttons .project__info:hover,
+          .project__bottom--body .project__buttons .project__deployment:hover,
+          .project__bottom--body .project__buttons .project__repository:hover {
             background-color: #8739fa;
             color: #e2e2e2; }
-          .project__content--body .project__buttons .project__info svg,
-          .project__content--body .project__buttons .project__deployment svg,
-          .project__content--body .project__buttons .project__repository svg {
+          .project__bottom--body .project__buttons .project__info svg,
+          .project__bottom--body .project__buttons .project__deployment svg,
+          .project__bottom--body .project__buttons .project__repository svg {
             align-self: center; }
-      .project__content--body .project__ul .project__li {
+      .project__bottom--body .project__ul .project__li {
         width: auto;
         height: 2.4rem;
         display: flex;
@@ -712,10 +768,10 @@ body {
         gap: 0.5rem;
         justify-content: flex-start;
         align-items: center; }
-        .project__content--body .project__ul .project__li span {
+        .project__bottom--body .project__ul .project__li span {
           background-color: none;
           color: #8739fa; }
-        .project__content--body .project__ul .project__li h4 {
+        .project__bottom--body .project__ul .project__li h4 {
           font-size: 1.6rem;
           font-weight: 400;
           height: 2.4rem;
@@ -726,9 +782,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -768,9 +824,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -840,9 +896,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -880,9 +936,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
@@ -947,9 +1003,9 @@ body {
   display: grid;
   place-items: center; }
 
-.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__content--body .project__buttons .project__info,
-.project__content--body .project__buttons .project__deployment,
-.project__content--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
+.nav__desktop a, .nav__mobile, .nav__mobile a, .nav__burger--bar, .hero__content .hero__anchors--resume, .hero__content .hero__anchors--talk, .fact, .skillset, .course, .course__certificate, .project, .project__top .project__header .project__info span, .project__bottom--body .project__buttons .project__info,
+.project__bottom--body .project__buttons .project__deployment,
+.project__bottom--body .project__buttons .project__repository, .social, .footer__container .footer__ul .footer__li .footer__a {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {

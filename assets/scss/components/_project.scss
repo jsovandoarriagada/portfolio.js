@@ -14,8 +14,81 @@
     @extend %shadow-inset;
   }
 
-  &__header {
-    @include flex-direction(column, $small);
+  &__top {
+    @include flex-direction(column, 1rem);
+
+    .project__header {
+      @include flex-direction(row, 0);
+      @include flex-alignment(flex-end, center);
+
+      .project__info {
+        position: relative;
+        height: auto;
+
+        span {
+          @extend %default-transition;
+          color: $gray-light;
+          cursor: pointer;
+
+          &:hover {
+            color: $white;
+          }
+        }
+
+        .project__bubble {
+          position: absolute;
+          display: none;
+          z-index: 1;
+          left: -60px;
+          top: -152px;
+
+          .bubble {
+            margin: 4rem;
+            position: relative;
+            width: 15rem;
+            height: auto;
+            background-color: $gray;
+            border: 0.2rem solid $violet;
+            border-radius: 1rem;
+
+            &:before {
+              content: " ";
+              position: absolute;
+              width: 0;
+              height: 0;
+              left: 4rem;
+              right: auto;
+              top: auto;
+              bottom: -2.4rem;
+              border: 1.1rem solid;
+              border-color: $violet transparent transparent $violet;
+            }
+
+            &:after {
+              content: " ";
+              position: absolute;
+              width: 0;
+              height: 0;
+              left: 4.2rem;
+              right: auto;
+              top: auto;
+              bottom: -2rem;
+              border: 1rem solid;
+              border-color: $gray transparent transparent $gray;
+            }
+
+            &__content {
+              padding: 1rem;
+              text-align: left;
+            }
+          }
+        }
+      }
+
+      .project__info:hover .project__bubble {
+        display: inline-block;
+      }
+    }
 
     img {
       @include dimensions(100%, auto);
@@ -35,7 +108,7 @@
     }
   }
 
-  &__content {
+  &__bottom {
     @include dimensions(100%, auto);
     @include flex-direction(column, $medium);
     @include flex-alignment(center, center);
