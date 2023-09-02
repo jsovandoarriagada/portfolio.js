@@ -6,26 +6,26 @@
       },
       [
         {
-          "name": "Bootstrap",
-          "level": "Intermedio"
-        },
-        {
           "name": "CSS",
-          "level": "Intermedio"
+          "level": "Medio"
         },
         {
           "name": "HTML",
-          "level": "Intermedio"
+          "level": "Medio"
         },
         {
-          "name": "JavaScript",
-          "level": "Intermedio"
+          "name": "JS",
+          "level": "Medio"
+        },
+        {
+          "name": "JSON",
+          "level": "Medio"
         }
       ],
       [
         {
-          "name": "JSON",
-          "level": "Intermedio"
+          "name": "Next.js",
+          "level": "Básico"
         },
         {
           "name": "React",
@@ -33,7 +33,7 @@
         },
         {
           "name": "Sass",
-          "level": "Intermedio"
+          "level": "Medio"
         },
         {
           "name": "Tailwind",
@@ -52,21 +52,21 @@
         },
         {
           "name": "Git",
-          "level": "Intermedio"
+          "level": "Medio"
         },
         {
           "name": "GitHub",
-          "level": "Intermedio"
+          "level": "Medio"
         },
         {
           "name": "Google",
-          "level": "Intermedio"
+          "level": "Medio"
         }
       ],
       [
         {
           "name": "Notion",
-          "level": "Intermedio"
+          "level": "Medio"
         },
         {
           "name": "Photoshop",

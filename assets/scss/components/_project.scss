@@ -15,7 +15,7 @@
   }
 
   &__top {
-    @include flex-direction(column, 1rem);
+    @include flex-direction(column, 2rem);
 
     .project__header {
       @include flex-direction(row, 0);

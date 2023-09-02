@@ -112,7 +112,7 @@ body {
   .nav__mobile {
     background-color: #2f2e34;
     color: #929294;
-    width: 28rem;
+    width: 24rem;
     height: auto;
     display: none !important;
     min-height: 100vh;
@@ -639,7 +639,7 @@ body {
   .project__top {
     display: flex;
     flex-direction: column;
-    gap: 1rem; }
+    gap: 2rem; }
     .project__top .project__header {
       display: flex;
       flex-direction: row;
