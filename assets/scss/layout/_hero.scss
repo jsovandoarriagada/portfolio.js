@@ -52,7 +52,6 @@
 
       &--resume {
         @include colors($violet, $white);
-        @include dimensions(15.258rem, auto);
 
         span {
           @include font($medium, 400);
@@ -60,6 +59,7 @@
       }
 
       &--talk {
+        @include dimensions(12.108rem, auto);
         @extend %shadow-inset;
         @include colors(transparent, $violet);
       }

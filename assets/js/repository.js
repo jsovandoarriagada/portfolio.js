@@ -14,22 +14,20 @@ const displayRepository = () => {
       <div class="project">
         <div class="project__top">
           <div class="project__header">
-          <!--
             <div class="project__info">
-              <span class="material-symbols-outlined">info</span>
+              <span class="material-symbols-outlined project__info--span">info</span>
               <div class="project__bubble">
                 <div class="bubble">
                   <div class="bubble__content">
                     <ul>
-                      <li>👉 Página Web</li>
+                      <li>👉 HTML, SCSS y JS</li>
                       <li>👉 Responsive</li>
-                      <li>👉 Completo</li>
+                      <li>👉 Terminado</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
-            -->
             <h4>${project.platform}</h4>
           </div>
           <img class="project__img" src="${project.preview}" alt="${project.name}" draggable="false" />

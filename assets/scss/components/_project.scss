@@ -19,33 +19,29 @@
 
     .project__header {
       @include flex-direction(row, 0);
-      @include flex-alignment(flex-end, center);
+      @include flex-alignment(space-between, center);
 
       .project__info {
         position: relative;
-        height: auto;
+        height: 2.4rem;
+        cursor: pointer;
 
         span {
           @extend %default-transition;
           color: $gray-light;
-          cursor: pointer;
-
-          &:hover {
-            color: $white;
-          }
         }
 
         .project__bubble {
           position: absolute;
           display: none;
           z-index: 1;
-          left: -60px;
+          left: -40px;
           top: -152px;
 
           .bubble {
             margin: 4rem;
             position: relative;
-            width: 15rem;
+            width: 18rem;
             height: auto;
             background-color: $gray;
             border: 0.2rem solid $violet;
@@ -56,7 +52,7 @@
               position: absolute;
               width: 0;
               height: 0;
-              left: 4rem;
+              left: 2rem;
               right: auto;
               top: auto;
               bottom: -2.4rem;
@@ -69,7 +65,7 @@
               position: absolute;
               width: 0;
               height: 0;
-              left: 4.2rem;
+              left: 2.2rem;
               right: auto;
               top: auto;
               bottom: -2rem;
@@ -87,6 +83,10 @@
 
       .project__info:hover .project__bubble {
         display: inline-block;
+      }
+
+      .project__info:hover .project__info--span {
+        color: $white;
       }
     }
 
