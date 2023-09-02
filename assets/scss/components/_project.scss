@@ -85,6 +85,11 @@
 
                 li {
                   list-style: disc;
+                  color: $gray-light;
+
+                  span {
+                    color: $white;
+                  }
                 }
               }
             }

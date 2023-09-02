@@ -697,7 +697,10 @@ body {
               .project__top .project__header .project__info .project__bubble .bubble__content ul {
                 padding-left: 2rem; }
                 .project__top .project__header .project__info .project__bubble .bubble__content ul li {
-                  list-style: disc; }
+                  list-style: disc;
+                  color: #929294; }
+                  .project__top .project__header .project__info .project__bubble .bubble__content ul li span {
+                    color: #e2e2e2; }
       .project__top .project__header .project__info:hover .project__bubble {
         display: inline-block; }
       .project__top .project__header .project__info:hover .project__info--span {

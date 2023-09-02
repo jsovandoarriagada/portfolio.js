@@ -20,10 +20,10 @@ const displayRepository = () => {
                 <div class="bubble">
                   <div class="bubble__content">
                     <ul>
-                      <li>${project.technologies}</li>
-                      <li>${project.resolution}</li>
-                      <li>${project.type}</li>
-                      <li>${project.status}</li>
+                      <li><span>${project.technologies}</span></li>
+                      <li><span>${project.resolution}</span></li>
+                      <li><span>${project.type}</span></li>
+                      <li><span>${project.status}</span></li>
                     </ul>
                   </div>
                 </div>
