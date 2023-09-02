@@ -20,9 +20,9 @@ const displayRepository = () => {
                 <div class="bubble">
                   <div class="bubble__content">
                     <ul>
-                      <li>👉 HTML, SCSS y JS</li>
-                      <li>👉 Responsive</li>
-                      <li>👉 Terminado</li>
+                      <li>👉 ${project.technologies}</li>
+                      <li>👉 ${project.resolution}</li>
+                      <li>👉 ${project.status}</li>
                     </ul>
                   </div>
                 </div>
