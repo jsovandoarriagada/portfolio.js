@@ -11,7 +11,7 @@
       "date": "Julio de 2023",
       "resolution": "Responsive",
       "status": "Terminado",
-      "type": "Página web"
+      "type": "Página Web"
     },
     {
       "platform": "Alura Latam",
@@ -23,7 +23,7 @@
       "deployment": "https://jsovandoarriagada.github.io/crimson-games",
       "date": "Junio de 2023",
       "resolution": "Responsive",
-      "status": "En construcción",
+      "status": "En Construcción",
       "type": "Challenge ONE"
     },
     {
@@ -36,7 +36,7 @@
       "deployment": "https://jsovandoarriagada.github.io/portfolio.js",
       "date": "Junio de 2023",
       "resolution": "Responsive",
-      "status": "En construcción",
+      "status": "En Construcción",
       "type": "Challenge ONE"
     },
     {
@@ -63,7 +63,7 @@
       "date": "Mayo de 2022",
       "resolution": "Responsive",
       "status": "Terminado",
-      "type": "Proyecto final"
+      "type": "Proyecto Final"
     },
     {
       "platform": "Personal",
@@ -87,7 +87,7 @@
       "repository": "https://github.com/jsovandoarriagada/battle-for-azerotht",
       "deployment": "https://jsovandoarriagada.github.io/battle-for-azeroth",
       "date": "Marzo de 2022",
-      "resolution": "1920x1080px",
+      "resolution": "Sólo 1920x1080px",
       "status": "Terminado",
       "type": "Idea/Boceto"
     },
@@ -100,7 +100,7 @@
       "repository": "https://github.com/jsovandoarriagada/new-super-mario-bros",
       "deployment": "https://jsovandoarriagada.github.io/new-super-mario-bros",
       "date": "Marzo de 2022",
-      "resolution": "1920x1080px",
+      "resolution": "Sólo 1920x1080px",
       "status": "Terminado",
       "type": "Idea/Boceto"
     }
