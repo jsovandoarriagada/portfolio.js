@@ -35,7 +35,7 @@ textarea {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* GENERAL */
 html {
@@ -79,7 +79,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* NAV */
 .nav {
@@ -192,7 +192,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* HEADER */
 .header {
@@ -243,7 +243,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* HERO */
 .hero {
@@ -343,7 +343,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* FACT */
 .fact {
@@ -365,7 +365,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* ABOUT */
 .about {
@@ -409,7 +409,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* SKILLSET */
 .skillset {
@@ -470,7 +470,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* SKILLS */
 .skills {
@@ -512,7 +512,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* COURSE */
 .course {
@@ -575,7 +575,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* EDUCATION */
 .education {
@@ -625,7 +625,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* PROJECT */
 .project {
@@ -816,7 +816,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* PROJECTS */
 .repository {
@@ -858,7 +858,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* FORM */
 .form {
@@ -930,7 +930,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* SOCIAL */
 .social {
@@ -970,7 +970,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* CONTACT */
 .contact {
@@ -1037,7 +1037,7 @@ body {
   transition: all 0.3s; }
 
 .hero__content .hero__anchors--talk, .fact:hover, .skillset:hover, .course:hover, .project:hover, .form__field--name:hover, .form__field--email:hover, .form__field--subject:hover, .form__field--message:hover, .form__buttons button:nth-of-type(2), .social:hover {
-  box-shadow: inset 0 0 0 0.25rem #8739fa; }
+  box-shadow: inset 0 0 0 0.2rem #8739fa; }
 
 /* FOOTER */
 .footer {
