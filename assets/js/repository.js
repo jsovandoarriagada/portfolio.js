@@ -22,6 +22,7 @@ const displayRepository = () => {
                     <ul>
                       <li>👉 ${project.technologies}</li>
                       <li>👉 ${project.resolution}</li>
+                      <li>👉 ${project.type}</li>
                       <li>👉 ${project.status}</li>
                     </ul>
                   </div>

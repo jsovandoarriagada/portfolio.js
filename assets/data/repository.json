@@ -10,7 +10,8 @@
       "deployment": "https://jsovandoarriagada.github.io/dataexpert",
       "date": "Julio de 2023",
       "resolution": "Responsive",
-      "status": "Terminado"
+      "status": "Terminado",
+      "type": "Página web"
     },
     {
       "platform": "Alura Latam",
@@ -22,7 +23,8 @@
       "deployment": "https://jsovandoarriagada.github.io/crimson-games",
       "date": "Junio de 2023",
       "resolution": "Responsive",
-      "status": "En construcción"
+      "status": "En construcción",
+      "type": "Challenge ONE"
     },
     {
       "platform": "Alura Latam",
@@ -34,7 +36,8 @@
       "deployment": "https://jsovandoarriagada.github.io/portfolio.js",
       "date": "Junio de 2023",
       "resolution": "Responsive",
-      "status": "En construcción"
+      "status": "En construcción",
+      "type": "Challenge ONE"
     },
     {
       "platform": "Alura Latam",
@@ -46,8 +49,8 @@
       "deployment": "https://jsovandoarriagada.github.io/cipher",
       "date": "Mayo de 2023",
       "resolution": "Responsive",
-
-      "status": "Terminado"
+      "status": "Terminado",
+      "type": "Challenge ONE"
     },
     {
       "platform": "Coderhouse",
@@ -59,7 +62,8 @@
       "deployment": "https://jsovandoarriagada.github.io/battle.net",
       "date": "Mayo de 2022",
       "resolution": "Responsive",
-      "status": "Terminado"
+      "status": "Terminado",
+      "type": "Proyecto final"
     },
     {
       "platform": "Personal",
@@ -71,7 +75,8 @@
       "deployment": "https://jsovandoarriagada.github.io/blizzard-launcher",
       "date": "Abril de 2022",
       "resolution": "Responsive",
-      "status": "Boceto/Idea"
+      "status": "Terminado",
+      "type": "Idea/Boceto"
     },
     {
       "platform": "Personal",
@@ -83,7 +88,8 @@
       "deployment": "https://jsovandoarriagada.github.io/battle-for-azeroth",
       "date": "Marzo de 2022",
       "resolution": "1920x1080px",
-      "status": "Boceto/Idea"
+      "status": "Terminado",
+      "type": "Idea/Boceto"
     },
     {
       "platform": "Personal",
@@ -95,7 +101,8 @@
       "deployment": "https://jsovandoarriagada.github.io/new-super-mario-bros",
       "date": "Marzo de 2022",
       "resolution": "1920x1080px",
-      "status": "Boceto/Idea"
+      "status": "Terminado",
+      "type": "Idea/Boceto"
     }
   ]
 }

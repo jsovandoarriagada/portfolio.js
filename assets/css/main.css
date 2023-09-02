@@ -657,7 +657,7 @@ body {
           display: none;
           z-index: 1;
           left: -40px;
-          top: -152px; }
+          top: -172px; }
           .project__top .project__header .project__info .project__bubble .bubble {
             margin: 4rem;
             position: relative;
@@ -667,7 +667,7 @@ body {
             border: 0.2rem solid #8739fa;
             border-radius: 1rem;
             animation-name: fadeIn;
-            animation-duration: 0.6s;
+            animation-duration: 0.5s;
             animation-fill-mode: both; }
             .project__top .project__header .project__info .project__bubble .bubble:before {
               content: " ";
