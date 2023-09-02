@@ -656,7 +656,7 @@ body {
           position: absolute;
           display: none;
           z-index: 1;
-          left: -40px;
+          left: -50px;
           top: -192px; }
           .project__top .project__header .project__info .project__bubble .bubble {
             margin: 4rem;
@@ -694,6 +694,10 @@ body {
             .project__top .project__header .project__info .project__bubble .bubble__content {
               padding: 2rem;
               text-align: left; }
+              .project__top .project__header .project__info .project__bubble .bubble__content ul {
+                padding-left: 2rem; }
+                .project__top .project__header .project__info .project__bubble .bubble__content ul li {
+                  list-style: disc; }
       .project__top .project__header .project__info:hover .project__bubble {
         display: inline-block; }
       .project__top .project__header .project__info:hover .project__info--span {

@@ -35,7 +35,7 @@
           position: absolute;
           display: none;
           z-index: 1;
-          left: -40px;
+          left: -50px;
           top: -192px;
 
           .bubble {
@@ -79,6 +79,14 @@
             &__content {
               padding: 2rem;
               text-align: left;
+
+              ul {
+                padding-left: 2rem;
+
+                li {
+                  list-style: disc;
+                }
+              }
             }
           }
         }
