@@ -655,7 +655,7 @@ body {
         .project__top .project__header .project__info .project__bubble {
           position: absolute;
           display: none;
-          z-index: 1;
+          z-index: 10;
           left: -50px;
           top: -192px; }
           .project__top .project__header .project__info .project__bubble .bubble {
